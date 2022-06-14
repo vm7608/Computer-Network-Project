@@ -119,6 +119,17 @@ const sampleProducts = [
     inStock: true,
     popular: false,
     imageURL: "https://cdn.tgdd.vn/Products/Images/2403/74214/do-dung-chao-da-sieu-ben-sunhouse-sbd24-99-org.jpg"
+  },
+
+  {
+    id: 13,
+    name: "300 bài code thiếu nhi",
+    category: "Sách",
+    price: 20,
+    description: "300 bài code thiếu nhi - Cuốn sách kinh điển được cộng đồng lập trình viên Việt Nam đánh giá cao, được coi là cuốn sách gối đầu của mọi lập trình viên",
+    inStock: true,
+    popular: true,
+    imageURL: "https://nguyenvanhieu.vn/wp-content/uploads/2021/04/300-bai-code-thieu-nhi.jpg"
   }
 ]
 

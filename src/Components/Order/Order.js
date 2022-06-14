@@ -28,7 +28,7 @@ class ConnectedOrder extends Component {
 
         return (
             <div >
-                <div className="online-shop-title">Please review order before purchase</div>
+                <div className="online-shop-title">Vui lòng kiểm tra lại trước khi đặt hàng!</div>
                 <Table >
                     <TableHead>
                         <TableRow>

@@ -95,7 +95,7 @@ class ConnectedHeader extends Component {
                             onClick={() => {
                                 this.props.history.push('/login');
                             }}>
-                            Log in
+                            Đăng nhập
                         </Button>) :
                         (<Avatar
                             onClick={(event) => {
@@ -114,7 +114,7 @@ class ConnectedHeader extends Component {
                             this.setState({ anchorEl: null })
                             this.props.history.push('/order');
                         }}>
-                            Pending Order
+                            Đơn hàng của tôi
                         </MenuItem>
                         <MenuItem onClick={() => {
                             Auth.signout(() => {
@@ -122,7 +122,7 @@ class ConnectedHeader extends Component {
                                 this.props.history.push('/');
                             })
                             this.setState({ anchorEl: null });
-                        }}>Logout</MenuItem>
+                        }}>Đăng xuất</MenuItem>
                     </Menu>
                 </div>
             </div >

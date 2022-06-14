@@ -11,8 +11,8 @@ import "./Login.css"
 
 class ConnectedLogin extends Component {
     state = {
-        userName: "",
-        pass: "",
+        userName: "abc",
+        pass: "123",
         redirectToReferrer: false
 
     }
@@ -32,14 +32,14 @@ class ConnectedLogin extends Component {
                 <div style={{ marginBottom: 50, fontSize: 26, textAlign: "center", color: "gray" }}> Log in </div>
                 <TextField
                     value={this.state.userName}
-                    placeholder="Username"
+                    placeholder="Tên đăng nhập"
                     onChange={(e) => {
                         this.setState({ userName: e.target.value })
                     }} />
                 <TextField
                     value={this.state.pass}
                     type="password"
-                    placeholder="Password"
+                    placeholder="Mật khẩu"
                     onChange={(e) => {
                         this.setState({ pass: e.target.value })
                     }} />
@@ -66,7 +66,7 @@ class ConnectedLogin extends Component {
 
                         })
                     }}>Log in</Button>
-                {this.state.wrongCred && <div style={{ color: "red" }}>Wrong username and/or password</div>}
+                {this.state.wrongCred && <div style={{ color: "red" }}>Sai tên đăng nhập hoặc mật khẩu!</div>}
             </div>
         );
     }

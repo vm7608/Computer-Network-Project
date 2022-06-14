@@ -22,7 +22,7 @@ class PriceDialog extends Component {
                     }}>
 
                     <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-                        <DialogTitle>Enter price range</DialogTitle>
+                        <DialogTitle>Nhập khoảng giá</DialogTitle>
 
                         <div style={{ display: "flex", padding: 20 }}>
                             <TextField

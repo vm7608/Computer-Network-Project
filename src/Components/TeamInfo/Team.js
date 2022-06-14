@@ -2,16 +2,13 @@ import './Team.css';
 
 function Team() {
     return (
-        
         <div className="Team">
-            
-            <table>
+            <table class = "about">
                 <tr>
                     <th>Họ và tên</th>
                     <th>MSSV</th>
                     <th>Lớp sinh hoạt</th>
                     <th>Lớp học phần</th>
-
                 </tr>
                 <tr>
                     <td>Cao Kiều Văn Mạnh</td>
