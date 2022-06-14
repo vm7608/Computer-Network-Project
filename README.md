@@ -9,9 +9,9 @@ Các chức năng chính:
 - Thêm, xóa, chỉnh sửa số lượng sản phẩm trong giỏ hảng
 
 # Cách chạy chương trình
-
-1. ```git clone https://github.com/vm7608/Computer-Network-Project.git```.
-2. ```cd Computer-Network-Project``` 
-3. ```npm install```
-4. ```npm start```
+1. Cài đặt Node.js tại https://nodejs.org/en/download/ 
+2. ```git clone https://github.com/vm7608/Computer-Network-Project.git```.
+3. ```cd Computer-Network-Project``` 
+4. ```npm install```
+5. ```npm start```
 

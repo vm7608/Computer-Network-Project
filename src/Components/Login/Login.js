@@ -65,7 +65,7 @@ class ConnectedLogin extends Component {
                             }))
 
                         })
-                    }}>Log in</Button>
+                    }}>Đăng nhập</Button>
                 {this.state.wrongCred && <div style={{ color: "red" }}>Sai tên đăng nhập hoặc mật khẩu!</div>}
             </div>
         );
