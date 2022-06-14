@@ -52,7 +52,7 @@ const sampleProducts = [
   {
     id: 6,
     name: "Điều hòa Panasonic Inverter",
-    category: "Gia dụng",
+    category: "Điện tử",
     price: 500,
     description: "Điều hòa Panasonic Inverter mang sắc trắng thanh lịch, thiết kế đơn giản, tinh tế nhưng vô cùng sang trọng, phù hợp với nhiều không gian nội thất.",
     inStock: true,
@@ -90,9 +90,6 @@ const sampleProducts = [
     imageURL: "https://ae01.alicdn.com/kf/HTB1ffVhNkvoK1RjSZFNq6AxMVXaM/KBDfans-u-Ph-HHKB-RGB-TRAO-I-N-NG-DIY-B-m-kh-ng-Keycaps-v.jpg_Q90.jpg_.webp"
   },
 
-
-  //test
-
   {
     id: 10,
     name: "Áo PSG - Messi",
@@ -100,9 +97,29 @@ const sampleProducts = [
     price: 1000,
     description: "Chiếc áo số 30 của huyền thoại Leo Messi tại PSG!",
     inStock: false,
-    popular: false,
+    popular: true,
     imageURL: "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/312/744/products/dfdty1-bc710287c3369a3f1e16294722544060-1024-1024.png"
   },
+  {
+    id: 11,
+    name: "Bộ dao cắt Sashimi",
+    category: "Gia dụng",
+    price: 200,
+    description: "Trong nghệ thuật làm bếp cũng như văn hóa ẩm thực, không thể không nhắc đến sự tinh tế trong các món ăn của Nhật Bản, đặc biệt là cách thức chế biến các món hải sản tươi sống hay còn gọi là Sashimi. Để thực hiện được những món ăn cầu kỳ mang tính thẩm mỹ cao như Sashimi đòi hỏi phải có một bộ dao chuyên biệt một bộ dao chuyên biệt, đó chính là dao Sashimi.",
+    inStock: true,
+    popular: false,
+    imageURL: "https://vn-live-01.slatic.net/p/e08785b21697ffc6605cfee4943b1405.jpg"
+  },
+  {
+    id: 12,
+    name: "Chảo nhôm chống dính Sunhouse",
+    category: "Gia dụng",
+    price: 50,
+    description: "Chảo đá Sunhouse đường kính 24 cm, chiên được 3 trứng ốp la cùng lúc. Chảo đá bằng nhôm đúc, bề mặt là lớp chống dính đá hoa cương phủ sơn Whitford chịu nhiệt tối đa 315oC. Sử dụng được cho bếp gas, bếp hồng ngoại, không sử dụng được cho bếp từ. Đến từ thương hiệu tin cậy Sunhouse – Việt Nam, sản xuất tại Việt Nam.",
+    inStock: true,
+    popular: false,
+    imageURL: "https://cdn.tgdd.vn/Products/Images/2403/74214/do-dung-chao-da-sieu-ben-sunhouse-sbd24-99-org.jpg"
+  }
 ]
 
 /* Available categories */

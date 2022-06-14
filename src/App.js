@@ -9,7 +9,7 @@ import Details from "./Components/Details/Details"
 import Order from "./Components/Order/Order"
 import Login from "./Components/Login/Login"
 import ProtectedRoute from "./Components/ProtectedRoute/ProtectedRoute"
-
+import Team from "./Components/TeamInfo/Team"
 
 class App extends Component {
   render() {
@@ -24,7 +24,7 @@ class App extends Component {
               <Route path='/search/' component={ProductList} />
               <Route path='/' exact component={ProductList} />
               <Route path='/details/:id' component={Details} />
-              <Route path='/about' render={() => <div>About us</div>} />
+              <Route path='/about' component={Team} />
               <Route path="/login" component={Login} />
               <ProtectedRoute path='/order' component={Order} />
             </Switch>
@@ -34,5 +34,5 @@ class App extends Component {
     );
   }
 }
- 
+
 export default App;
